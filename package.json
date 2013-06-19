@@ -1,19 +1,19 @@
 {
-  "name": "uptime-gadget-tasks",
+  "name": "uptime-gadget-tasks-ivan",
   "description": "Grunt tasks to compress gadgets and commit to a Maven repository.",
   "version": "0.1.0",
-  "homepage": "https://github.com/uptimesoftware/uptime-gadget-tasks",
+  "homepage": "https://github.com/ikrolo/uptime-gadget-tasks-ivan",
   "repository": {
     "type": "git",
-    "url": "git://github.com/uptimesoftware/uptimeGadgetTasks.git"
+    "url": "git://github.com/ikrolo/uptime-gadget-tasks-ivan.git"
   },
   "bugs": {
-    "url": "https://github.com/uptimesoftware/uptimeGadgetTasks/issues"
+    "url": "https://github.com/ikrolo/uptime-gadget-tasks-ivan/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/uptimesoftware/uptime-gadget-tasks/blob/master/LICENSE-MIT"
+      "url": "https://github.com/ikrolo/uptime-gadget-tasks-ivan/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
