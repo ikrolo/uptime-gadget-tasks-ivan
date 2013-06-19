@@ -17,8 +17,7 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('uptime-gadget-tasks');
 ```
 
-## Usage Examples
-### The "uptime-gadget" tasks
+## The "uptime-gadget" tasks
 
 #### "compress" task
 _Run this task with the 'grunt uptime-gadget:compress' command_
@@ -27,14 +26,14 @@ This will compress everything in the src/ folder into target/[GadgetName].zip
 
 _Run this task with 'grunt uptime-gadget:compress --target=[desired_output_folder]' to output to a specific folder other than target/_
 
-### "mavenDeploy" task
+#### "mavenDeploy" task
 Make sure to have a config file 'mavenOptions.json' present before running this file.  See Maven Options section for more
 
 _Run this task with the 'grunt uptime-gadget:mavenDeploy' command_
 
 Further details can be found in the documentation for the [grunt-maven-tasks](https://github.com/smh/grunt-maven-tasks)
 
-### "mavenRelease" task
+#### "mavenRelease" task
 Make sure to have a config file 'mavenOptions.json' present before running this file.  See Maven Options section for more
 
 _Run this task with the 'grunt uptime-gadget:mavenRelease' command_
