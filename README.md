@@ -43,6 +43,7 @@ Further details can be found in the documentation for the [grunt-maven-tasks](ht
 
 ## Maven Options
 'mavenOptions.json' file is expected for the "deploy" and "release" tasks.  Make sure that it includes the following options:
+```js
 {
 	"groupId": "[group_id]",
 	"snapshotRepositoryId": "[snapshot repository id used for authentication purposes, as pulled from ~/.m2/settings.xml]",
@@ -50,3 +51,4 @@ Further details can be found in the documentation for the [grunt-maven-tasks](ht
 	"releaseRepositoryId": "[release repository id used for authentication purposes, as pulled from ~/.m2/settings.xml]",
 	"releaseUrl": "[URL of the release repository]"
 }
+```
