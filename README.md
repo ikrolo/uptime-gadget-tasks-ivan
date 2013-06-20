@@ -20,15 +20,17 @@ grunt.loadNpmTasks('uptime-gadget-tasks');
 ## The "uptime-gadget" tasks
 
 ### "compress" task
-_Compresses everything in the `src/` folder into `target/[GadgetName].zip`. 
+> Compresses everything in the `src/` folder into `target/[GadgetName].zip`. 
 
 ```shell
 grunt uptime-gadget:compress --target=[desired_output_folder]
 ```
 - GadgetName is the name found in package.json
-- `--target` commandline optino is optional.  If not specified, output will simply go to a subfolder called `target` as shown above.
+- `--target` flag is optional.  If not specified, output will simply go to a subfolder called `target` as shown above.
 
 ### Maven Deploy and Release tasks
+> Compresses the `src/` directory (just as in the `compress` task) and then deploys or releases the zip to a Maven repository.
+
 `mavenOptions.json` file is expected for the `mavenDeploy` and `mavenRelease` tasks.  Make sure that it includes the following options:
 ```js
 {
